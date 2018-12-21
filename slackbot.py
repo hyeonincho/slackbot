@@ -30,7 +30,7 @@ def getSteamReviews(gameAppId):
 
 async def execute_bot():
         
-    token = 'xoxb-507380538243-507690072389-qoKlkzFOxIhzJftBsAKabE8q'
+    token = 'token'
     slack = Slacker(token)
     response = slack.rtm.connect()
     sock_endpoint = response.body['url']
